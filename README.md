@@ -14,13 +14,13 @@ App web per gestire il magazzino di abbigliamento (maglie, felpe, giubbotti) e r
 
 - **Area amministratore** (protetta da password):
 
-&#x20;   - aggiunge o toglie pezzi dal magazzino
+&#x20;     - aggiunge o toglie pezzi dal magazzino
 
-&#x20;   - vede il totale richiesto per taglia e quanto resta da ordinare
+&#x20;     - vede il totale richiesto per taglia e quanto resta da ordinare
 
-&#x20;   - segna le richieste come consegnate, scalando la giacenza
+&#x20;     - segna le richieste come consegnate, scalando la giacenza
 
-&#x20;   - cancella le richieste consegnate (nomi compresi)
+&#x20;     - cancella le richieste consegnate (nomi compresi)
 
 
 
