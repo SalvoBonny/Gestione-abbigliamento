@@ -1,4 +1,4 @@
-\# Gestione abbigliamento
+# Gestione abbigliamento
 
 
 
@@ -6,13 +6,13 @@ App web per gestire il magazzino di abbigliamento (maglie, felpe, giubbotti) e r
 
 
 
-\## Cosa fa
+## Cosa fa
 
 
 
-\- \*\*Modulo pubblico:\*\* chi ha bisogno di abbigliamento inserisce nome e cognome e sceglie articolo, taglia e quantità. Prima di inviare deve spuntare la casella dell'informativa privacy.
+- **Modulo pubblico:** chi ha bisogno di abbigliamento inserisce nome e cognome e sceglie articolo, taglia e quantità. Prima di inviare deve spuntare la casella dell'informativa privacy.
 
-\- \*\*Area amministratore\*\* (protetta da password):
+- **Area amministratore** (protetta da password):
 
 &#x20; - aggiunge o toglie pezzi dal magazzino
 
@@ -24,35 +24,35 @@ App web per gestire il magazzino di abbigliamento (maglie, felpe, giubbotti) e r
 
 
 
-\## Privacy
+## Privacy
 
 
 
-I dati personali (nome e cognome) restano nel database locale `magazzino.db`, che \*\*non è nel repository\*\* (è escluso con `.gitignore`). La password e i contatti per l'informativa si leggono dal file `.env`, anch'esso escluso.
+I dati personali (nome e cognome) restano nel database locale `magazzino.db`, che **non è nel repository** (è escluso con `.gitignore`). La password e i contatti per l'informativa si leggono dal file `.env`, anch'esso escluso.
 
 
 
-\## Tecnologie
+## Tecnologie
 
 
 
-\- Python
+- Python
 
-\- Streamlit: pagina web
+- Streamlit: pagina web
 
-\- SQLite: database
+- SQLite: database
 
-\- pandas: tabelle e totali
-
-
-
-\## Installazione su Windows
+- pandas: tabelle e totali
 
 
 
-1\. Installa Python da python.org (spunta "Add python.exe to PATH").
+## Installazione su Windows
 
-2\. In PowerShell, nella cartella del progetto:
+
+
+1. Installa Python da python.org (spunta "Add python.exe to PATH").
+
+2. In PowerShell, nella cartella del progetto:
 
 
 
@@ -66,11 +66,11 @@ copy .env.example .env
 
 
 
-3\. Apri `.env` e scrivi la tua password amministratore, il nome di chi gestisce i dati e un'email di contatto.
+3. Apri `.env` e scrivi la tua password amministratore, il nome di chi gestisce i dati e un'email di contatto.
 
 
 
-\## Avvio
+## Avvio
 
 
 
@@ -86,9 +86,9 @@ Si apre il browser su http://localhost:8501. Il database viene creato al primo a
 
 
 
-\## Note
+## Note
 
 
 
-Progetto sviluppato da \[Salvo] con l'aiuto di strumenti di intelligenza artificiale (Claude e Cursor).
+Progetto sviluppato da Salvo con l'aiuto di strumenti di intelligenza artificiale (Claude e Cursor).
 
